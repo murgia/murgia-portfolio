@@ -74,7 +74,7 @@ hr {
   box-sizing: border-box;
   transition: all 500ms cubic-bezier(0.77, 0, 0.175, 1);
   z-index: 10;
-  width: 100%;
+  width: 102%;
   overflow: hidden;
 }
 
@@ -141,8 +141,7 @@ hr {
 .profile {
   position: relative;
   padding: 0px 0 220px 0;
-  background-color: #d7cec5;
-  background-color: rgba(215, 206, 197, 0.95);
+  background-color: #FFDAB9;
 }
 
 .profile .subSection {
@@ -174,8 +173,8 @@ hr {
   text-align: center;
   position: relative;
   padding: 0px 0 60px 0;
-  background-color: #a4a4ac;
-  background-color: rgba(164, 164, 172, 0.98);
+  background-color: #2F4F4F;
+  color: #ebebeb;
 }
 
 .skills p {
@@ -197,7 +196,7 @@ hr {
   position: relative;
   overflow: hidden;
   padding: 40px 0 80px 0;
-  background-color: #42414a;
+  background-color: #4682B4;
   color: #ebebeb;
 }
 
@@ -289,9 +288,10 @@ hr {
 footer {
   position: relative;
   padding-top: 40px;
-  background-color: #2f2f32;
+  background-color: #B22222;
   color: #ebebeb;
   padding-bottom: 100px;
+  width: 102%;
 }
 
 .contactLinks {
@@ -324,4 +324,7 @@ footer {
 .contact p {
   margin: 100px 0;
   text-align: center;
+}
+section{
+  width: 102%;
 }
