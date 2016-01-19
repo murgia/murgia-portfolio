@@ -1,0 +1,118 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Matthew Murgia</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href='https://fonts.googleapis.com/css?family=Neuton' rel='stylesheet' type='text/css'>
+  <script src="js/jquery-2.1.4.min.js"></script>
+  <script src="js/script.js"></script>
+  </script>
+</head>
+<body>
+  <nav class="mainNav navbar-absolute">
+    <ul>
+      <li><a href="#profile">Profile</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section id="splash" class="splash">
+    <div class="splashHero"></div>
+    <div class="intro">
+      <h1>Matthew Murgia</h1>
+      <h3>Web Developer</h3>
+    </div>
+  </section>
+
+  <section id="profile" class="profile">
+    <h2 class="sectionHeading">Profile</h2>
+    <hr>
+    <div class="subSection">
+      <img class="profilePic" src="images/matthew-murgia-headshot.png" alt="matthew-murgia-headshot" />
+      <h3 class="subHeading">About Me</h3>
+      <p> I am a developer that loves to get out of my comfort zone to learn and help others.  I have a background in sustainability and enjoy finding solutions to problems that have the capacity to endure. When I'm not learning new technologies and coding, I love to stay active by skiing and playing team sports.</p>
+    </div>
+  </section>
+
+  <section id="skills" class="skills">
+    <h2 class="sectionHeading">Skills</h2>
+    <hr>
+    <div class="subSection">
+      <h3 class="subHeading">Languages, Fameworks, &amp; Databases</h3>
+      <p class="category">Languages</p>
+      <p>Javascript | Ruby | HTML | CSS | SASS | PHP </p>
+      <p class="category">Frameworks</p>
+      <p>Rails | Sinatra | Express | Node | Angular | jQuery | Bootstrap </p>
+      <p class="category">Databases and Design</p>
+      <p>PostgresSQL | MongoDB | MySQL | Wireframing | User Stories | Wordpress </p>
+      <p class="category">Other</p>
+      <p>Git | Github | Wireframing | User Stories | Wordpress | MVC | OOP | MVVM </p>
+    </div>
+  </section>
+
+  <section id="projects" class="projects">
+    <h2 class="sectionHeading">Projects</h2>
+    <hr>
+
+    <div class="project">
+      <article class="side sideLeft">
+        <div class="projectText">
+          <h3>Kilowatt Calculator</h3>
+          <p>Kilowatt calculator is an app with the back-end built in Rails and the front-end built using Angular. Users have the ability to calculate their yearly electricity use and have access to the Energy Information Agency API to calculate projected cost. The app was deployed on Heroku.</p>
+        </div>
+      </article>
+      <figure class="side sideRight">
+        <a target="_blank" href="http://murgia.github.io/kilowatt-calc/">
+          <img src="images/kilowatt-calc.png" alt="kilowatt-calculator preview screenshot">
+        </a>
+      </figure>
+    </div>
+
+    <div class="project">
+      <figure class="side sideLeft">
+        <a target="_blank" href="http://powerful-journey-2894.herokuapp.com/">
+          <img src="images/swolemate.png" alt="Swolemate preview screenshot">
+        </a>
+      </figure>
+      <article class="side sideRight">
+        <div class="projectText">
+          <h3>SwoleMate</h3>
+          <p>Swolemate is a one-page app built using Express and Node.js. The API was
+          built with MongoDB serving JSON. Users have the ability to create their own workouts as well as access a third-party API. User authentication was done using Passport and the application was deployed on Heroku.</p>
+        </div>
+      </article>
+    </div>
+
+    <div class="project">
+      <article class="side sideLeft">
+        <div class="projectText">
+          <h3>Taskager</h3>
+          <p> Built in Ruby on Rails in one week, Taskager is a task management web application that demonstrates full CRUD functionality with complex many to many relationships. User authentication was done using the Devise gem and the app was deployed on Heroku.</p>
+        </div>
+      </article>
+      <figure class="side sideRight">
+        <a target="_blank" href="https://taskager.herokuapp.com/">
+          <img src="images/Taskager.png" alt="taskager preview screenshot">
+        </a>
+      </figure>
+    </div>
+  </section><!--end of project section-->
+
+  <footer id="contact" class="contact">
+    <h2 class="sectionHeading">Contact</h2>
+    <hr>
+    <ul class="contactLinks">
+      <li><a target="_blank" href="https://www.linkedin.com/in/matthew-murgia-22a77852">LinkedIn</a></li>
+      <li><a target="_blank" href="https://github.com/murgia">GitHub</a></li>
+      <li><a href="mailto:matthew.murgia@gmail.com">Email</a></li>
+    </ul>
+    <p>Copyright &copy; Matthew Murgia 2016. All Rights Reserved</p>
+  </footer>
+
+</body>
+</html>
